@@ -1,0 +1,84 @@
+body{
+
+	&.dark{
+
+		background: $paper;
+		color: #fff;
+
+		& header{
+			
+			background: rgba($paper, .4);
+			color: #fff;
+
+			& a{
+				color: #fff;
+			}
+
+			& .container{
+
+				&:after{
+					background: linear-gradient(to left, transparent, white, transparent);
+				}
+			}
+		}
+
+		& footer{
+
+			& .row{
+				background: rgba(#ccc, .1);
+			}
+
+			& a{
+				color: #fff;
+			}
+
+			& .copyright{
+
+				&:after{
+					color: $paper;
+				}
+			}
+		}
+	}
+
+	&.light{
+
+		background: #fff;
+		color: $text;
+		
+		& header{
+			
+			background: rgba(white, .4);
+			color: $text;
+
+			& a{
+				color: $text;
+			}
+
+			& .container{
+
+				&:after{
+					background: linear-gradient(to left, transparent, $text, transparent);
+				}
+			}
+		}
+
+		& footer{
+
+			& .row{
+				background: rgba(#ccc, .3);
+			}
+
+			& a{
+				color: #000;
+			}
+
+			& .copyright{
+
+				&:after{
+					color: #fff;
+				}
+			}
+		}
+	}
+}

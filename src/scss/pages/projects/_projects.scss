@@ -1,0 +1,157 @@
+@import "./cases/zatochi";
+@import "./cases/u";
+@import "./cases/uforum";
+@import "./cases/tabris";
+@import "./cases/probeauty";
+@import "./cases/loppi";
+@import "./cases/rost";
+@import "./cases/edelveis";
+@import "./cases/victory";
+@import "./cases/mdenta";
+
+
+
+body{
+
+	& #projects{
+
+		padding-top: 18vmin;
+	}
+	
+	&.project{
+	
+		.title-video{
+			
+			margin-bottom: 4vmax;
+		
+			& video, & img{
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+.cases{
+
+	columns: 2;
+	column-gap: 4vw;
+
+	@media(max-width: 800px){
+		columns: 1;
+	}
+	
+	& .case{
+		
+		break-inside: avoid;
+		margin-bottom: 4vw;
+
+		& video{
+			width: 100%;
+		}
+	
+		& .case-wrapper{
+			
+			display: flex;
+			
+			& .link{
+				font-family: 'Garet';
+				text-transform: uppercase;
+				font-weight: bold;
+				flex-grow: 1;
+				font-size: 32px;
+			}
+
+			& h3{
+				margin: 0;
+				
+				& a{
+					transition: color .4s;
+				}
+			}
+		}
+	
+		& .poster-wrapper{
+			position: relative;
+			margin-bottom: 2em;
+			display: flex;
+
+			& a{
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 2;
+			}
+
+			& .poster{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				z-index: 1;
+			}
+
+			&:hover{
+
+				& .poster{
+
+					display: none !important;
+				}
+			}
+		}
+	
+		& .tags{
+	
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px 0;
+	
+			& .tag{
+	
+				color: $text;
+				display: inline-block;
+				line-height: 2em;
+				display: inline-flex;
+				margin-bottom: .3em;
+				font-size: 16px;
+				white-space: nowrap;
+				
+				& .tag-text{
+					background-color: #d3d3d3;
+					transition: background-color;
+					display: block;
+					padding: 0 5px;
+				}
+	
+				&:before{
+					content: '';
+					width: 8px;
+					background: url(/assets/img/tags/arrow-left.svg) left center no-repeat;
+					background-size: 100%, 100%;
+				}
+	
+				&:after{
+					content: '';
+					width: 13px;
+					background: url(/assets/img/tags/arrow-right.svg) left center no-repeat;
+					background-size: 100%, 100%;
+				}
+	
+				&:first-of-type:before{
+					background: url(/assets/img/tags/linear-left.svg) left center no-repeat;
+					background-size: 100%, 100%;
+					width: 5px;
+				}
+	
+				&:last-of-type:after{
+					background: url(/assets/img/tags/linear-right.svg) left center no-repeat;
+					background-size: 100%, 100%;
+					width: 5px;
+				}
+			}
+		}
+	}
+}

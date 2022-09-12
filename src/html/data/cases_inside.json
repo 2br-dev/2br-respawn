@@ -1,0 +1,172 @@
+[
+	{
+		"name": "Zatochi",
+		"intro": "Ребрендинг кафе азиатской кухни: смена позиционирования, свежий дизайн, дерзкие коммуникации и вкусная еда.",
+		"poster": "/projects/zatochi/poster.jpg",
+		"video": "/projects/zatochi/poster.mp4",
+		"tags": [
+			"#веб-разработка",
+			"#брендинг",
+			"#3D",
+			"#motion-design"
+		],
+		"url": "/zatochi.html"
+	},
+	{
+		"name": "Табрис",
+		"intro": "Активно работаем по поддержке HR бренда для сети супермакретов «Табрис».",
+		"poster": "/projects/tabris/poster.jpg",
+		"video": "/projects/tabris/poster.mp4",
+		"tags": [
+			"#наружная реклама",
+			"#smm"
+		],
+		"url": "/tabris.html"
+	},
+	{
+		"name": "M-Denta",
+		"intro": "Сайт стоматологической клиники с применением высоких технологий веб-разработки",
+		"poster": "/projects/mdenta/poster.jpg",
+		"video": "/projects/mdenta/poster.mp4",
+		"tags": [
+			"#наружная реклама",
+			"#smm"
+		],
+		"url": "/mdenta.html"
+	},
+	{
+		"name": "Эдельвейс-Агро",
+		"intro": "Разработка бренд-стратегии и фирменного стиля для дилеров сельскохозяйственной техники. Кроме того - вебсайт.",
+		"poster": "/projects/edelveis/poster.jpg",
+		"video": "/projects/edelveis/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#веб-разработка"
+		],
+		"url": "/mdenta.html"
+	},
+	{
+		"name": "Pro-Beauty",
+		"intro": "Разработка фирменного стиля салона красоты: современный дизайн, яркий образ.",
+		"poster": "/projects/probeauty/poster.jpg",
+		"video": "/projects/probeauty/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#smm"
+		],
+		"url": "/probeauty.html"
+	},
+	{
+		"name": "U Emotional Accessories",
+		"intro": "Разра­ботка бренда эмоцио­нальных аксес­суаров.",
+		"poster": "/projects/u/poster.jpg",
+		"video": "/projects/u/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#smm"
+		],
+		"url": "/u.html"
+	},
+	{
+		"name": "ЮФОРУМ",
+		"intro": "Брендинг стратегической бизнес-сессии «ЮФОРУМ». ",
+		"poster": "/projects/uforum/poster.jpg",
+		"video": "/projects/uforum/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#smm"
+		],
+		"url": "/uforum.html"
+	},
+	{
+		"name": "Рост",
+		"intro": "Кубанский краевой форум молодых управленцев. Даём площадку молодым профессионалам!",
+		"poster": "/projects/rost/poster.jpg",
+		"video": "/projects/rost/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#smm"
+		],
+		"url": "/rost.html"
+	},
+	{
+		"name": "Портал Победы",
+		"intro": "Портал в прошлое. Рассказываем о подвиге наших родных в ходе Великой Отечественной Войны.",
+		"poster": "/projects/victory/poster.jpg",
+		"video": "/projects/victory/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#веб-разработка",
+			"#smm"
+		],
+		"url": "/victory.html"
+	},
+	{
+		"name": "Лоппи",
+		"intro": "Брендинг линейки кондитерских изделий - выходим на международный уровень!",
+		"poster": "/projects/loppi/poster.jpg",
+		"video": "/projects/loppi/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#веб-разработка",
+			"#smm"
+		],
+		"url": "/loppi.html"
+	},
+	{
+		"name": "Лидеры кубани",
+		"intro": "Брендинг краевого кубанского бизнес-форума управленцев. Необычный взгляд на деловой подход.",
+		"poster": "/projects/leaders/poster.jpg",
+		"video": "/projects/leaders/poster.mp4",
+		"tags": [
+			"#брендинг",
+			"#веб-разработка",
+			"#smm"
+		],
+		"url": "/leaders.html"
+	},
+	{
+		"name": "RieltProf",
+		"intro": "Приложение-система управления базой данных для риелторского агентства. Строго, но со вкусом.",
+		"poster": "/projects/rieltprof/poster.jpg",
+		"video": "/projects/rieltprof/poster.mp4",
+		"tags": [
+			"#веб-разработка"
+		],
+		"url": "/rieltprof.html"
+	},
+	{
+		"name": "Дети Лучики",
+		"intro": "Брендинг центра поддержки семей, воспитывающих детей с особенностями в развитии",
+		"poster": "/projects/luchiki/poster.jpg",
+		"video": "/projects/luchiki/poster.mp4",
+		"tags": [
+			"#веб-разработка",
+			"#брендинг"
+		],
+		"url": "/luchiki.html"
+	},
+	{
+		"name": "Слон-вода",
+		"intro": "Разработка сайта и SMM-стратегии для новороссийской службы доставки питьевой воды.",
+		"poster": "/projects/slon/poster.jpg",
+		"video": "/projects/slon/poster.mp4",
+		"tags": [
+			"#веб-разработка",
+			"#smm"
+		],
+		"url": "/slon.html"
+	},
+	{
+		"name": "DimaLex",
+		"intro": "Железный характер, несгибаемая воля, поддержка и взаимовыручка – вот это характер! Бренда.",
+		"poster": "/projects/dimalex/poster.jpg",
+		"video": "/projects/dimalex/poster.mp4",
+		"tags": [
+			"#наружная реклама",
+			"#брендинг",
+			"#веб-разработка"
+		],
+		"url": "/dimalex.html"
+	}
+]

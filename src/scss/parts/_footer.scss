@@ -1,0 +1,64 @@
+body{
+
+	& footer{
+
+		margin-top: 2vmax;
+		  
+		& .row{
+			
+			border-radius: 6px;
+			overflow: hidden;
+			
+			& a{
+
+				transition: color .4s;
+				
+				&.logo{
+					font-size: 24px;
+					font-family: 'Burt';
+				}
+			}
+			
+			& .copyright{
+				
+				position: relative;
+
+				& .copyright-content{
+					position: relative;
+					z-index: 1;
+					transition: color .4s;
+				}
+				
+				&:after{
+					content: '2BR';
+					font-family: 'Burt';
+					position: absolute;
+					right: 12px;
+					font-size: 130px;
+					transition: color .4s;
+				}
+			}
+			
+			& ul{
+				
+				margin: 0;
+				display: inline-flex;
+	
+				& li{
+	
+					& a{
+						padding: 0 10px;
+					}
+				}
+				
+				& a{
+					font-size: 16px;
+				}
+			}
+	
+			& .social{
+				font-size: 21px;
+			}
+		}
+	}
+}

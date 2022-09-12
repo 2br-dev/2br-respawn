@@ -1,0 +1,170 @@
+body{
+
+	& header{
+	
+		position: relative;
+		position: fixed;
+		width: 100%;
+		backdrop-filter: blur(10px);
+		padding-top: 20px;
+		padding-bottom: 20px;
+		top: 0;
+		z-index: 50;
+		transition: background-color .4s;
+	
+		& ul{
+			margin: 0;
+			display: flex;
+			padding: 0 10px !important;
+	
+			& li{
+	
+				margin: 0 10px;
+	
+				&:not(:last-of-type){
+	
+					&:after{
+						display: inline-block;
+						padding: 0 10px;
+						content: '•';
+					}
+				}
+
+				& a{
+					transition: color .4s;
+				}
+			}
+		}
+	
+		& .container{
+	
+			position: relative;
+			display: flex;
+			align-items: center;
+	
+			&:after{
+				content: '';
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				transition: background .4s;
+				bottom: -20px;
+			}
+	
+			& .logo-wrapper{
+	
+				& .logo{
+					font-family: 'Burt';
+					font-size: 24px;
+					transition: color .4s;
+				}
+			}
+	
+			& .separator{
+				flex-grow: 1;
+			}
+	
+			& .contacts{
+	
+				& a, & span{
+					padding: 0 10px;
+					transition: color .4s;
+				}
+			}
+		}
+	
+		& .theme-switcher{
+		
+			width: 16px;
+			height: 16px;
+			line-height: 16px;
+			display: inline-block;
+			padding: 0 !important;
+			position: relative;
+			
+			&:before{
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transform: rotate(45deg);
+				width: 100%;
+				height: 100%;
+				transition: background .4s, transform .4s;
+			}
+			
+			&:after{
+				@extend:before;
+				transform: none;
+			}
+			
+			& .sun{
+				
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				position: absolute;
+				z-index: 1;
+				border-radius: 50%;
+				width: calc(100% - 4px);
+				height: calc(100% - 4px);
+				display: block;
+				padding: 0 !important;
+				overflow: hidden;
+				transition: background .4s, box-shadow .4s;
+				
+				&:before{
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 50%;
+					left: 50%;
+					border-radius: 50%;
+					transition: background .4s, transform .4s;
+				}
+			}
+	
+			&.dark{
+	
+				&:before{
+					background: #fff;
+				}
+	
+				& .sun{
+					box-shadow: 0 0 0 2px $text;
+					background: $text;
+
+					&:before{
+						background: #fff;
+						transform: translate( -50%, -50% );
+					}
+				}
+			}
+	
+			&.light{
+	
+				&:before{
+					background: $text;
+					transform: rotate(135deg);
+				}
+
+				&:after{
+					transform: rotate(90deg);
+				}
+	
+				& .sun{
+					box-shadow: 0 0 0 2px #fff;
+					background: #fff;
+
+					&:before{
+						background: $text;
+						transform: translate(calc(-50% + 6px), -50%);
+					}
+				}
+			}
+		}
+	}
+}
